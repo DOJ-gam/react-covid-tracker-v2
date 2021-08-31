@@ -1,4 +1,5 @@
 {
+  "homepage": "http://DOJ-gam.github.io/react-covid-tracker-v2",
   "name": "react-covid-tracker-v2",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "bootstrap": "^5.1.0",
     "chart.js": "^3.5.1",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.5",
     "react-bootstrap-icons": "^1.5.0",
@@ -22,6 +24,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
