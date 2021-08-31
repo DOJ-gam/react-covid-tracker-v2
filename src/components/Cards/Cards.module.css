@@ -1,0 +1,47 @@
+.container{
+    margin-top: 150px !important;
+    /* display: flex; */
+    /* display: flex;s */
+}
+
+.dojRow{
+    justify-content: center;
+}
+
+.dojCard{
+    border-radius: 10px;
+    height: 100%;
+}
+.recovered{
+    border-bottom: .7rem solid rgba(0, 255, 0, 0.5) !important;
+    border-top: .7rem solid rgba(0, 255, 0, 0.5) !important;
+}
+.infected{
+    border-bottom: .7rem solid rgba(0, 0, 255, 0.5) !important;
+    border-top: .7rem solid rgba(0, 0, 255, 0.5) !important;
+}
+
+.deaths{
+    border-bottom: .7rem solid rgba(255, 0, 0, 0.5) !important;
+    border-top: .7rem solid rgba(255, 0, 0, 0.5) !important;
+}
+
+.cardSubtitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* @media (max-width: 770px) {
+    .deaths, .recovered, .infected{
+        border-right: none !important;
+    }
+} */
+@media (max-width: 770px) {
+    .deaths, .recovered, .infected{
+        border-right: none !important;
+        /* margin-top: .5rem; */
+    }
+    .smaal{
+        width: 100%;
+    }
+}

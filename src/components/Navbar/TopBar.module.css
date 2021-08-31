@@ -1,0 +1,38 @@
+.dd{
+    /* border: 0;
+    width: 100% !important;
+    border-bottom: 5px solid lightcyan;
+    padding: 0;
+    width: 100px !important; */
+    /* padding: 0 !important; */
+    
+    /* border: 0 !important;
+    background-color: #212529 !important;
+    color: #F9fafa !important; */
+    
+}
+
+.dd:hover{
+    /* border: 0;
+    padding: 0 0;
+    background-color:black;
+    border-bottom: 5px solid lightcyan; */
+    
+    /* border: 0 !important;
+    background-color: #212529 !important;
+    color: #F9fafa !important;
+    outline: none; */
+}
+.w30{
+    /* width: 30% !important; */
+}
+
+@media (max-width: 770px) {
+    .smallScreen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
