@@ -4,6 +4,8 @@
 <img src='https://github.com/DOJ-gam/react-covid-tracker-v2/blob/main/screenshot/ch1.png' height="400px" width="800px" alt="DOJ's Covid-19 Tracker Img2"/>
 <img src='https://github.com/DOJ-gam/react-covid-tracker-v2/blob/main/screenshot/ch2.png' height="400px" width="800px" alt="DOJ's Covid-19 Tracker Img3"/>
 
+#Website URL: https://doj-gam.github.io/react-covid-tracker-v2/
+
 
 # Getting Started with Create React App
 
