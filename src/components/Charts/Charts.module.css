@@ -7,6 +7,22 @@
 }
 
 .chartSelect{
-    width: 15rem !important;
+    width: 15Containerrem !important;
     margin: .5rem 0 !important;
+}
+
+@media (max-width: 770px) {
+    .chartColumn{
+        margin-bottom: 10px;
+    }
+    .chartColumnSmall{
+        width: 20rem !important;
+    }
+    .rowSmall{
+        width: 20rem !important;
+    
+    }
+    .containerSmall{
+        width: 20rem !important;
+    }
 }

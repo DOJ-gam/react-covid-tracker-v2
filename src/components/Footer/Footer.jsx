@@ -14,9 +14,9 @@ const Footer = ()=>{
                         <h1 className="display-6 text-light">Made with Love using React Js, Developed by Omar Jeng (DOJ) </h1>
 
                     </Col>
-                    <Col md={4} sm={12} lg={3}>
+                    <Col md={4} sm={12} lg={3} >
                         <h1 className="display-5 text-light text-center text-muted">Contact Me</h1>
-                        <Row>
+                        <Row className={styles.small}>
                             <Col md={4} sm={4}>
                                 <a href="https://www.facebook.com/daddyomarjeng1" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook text-primary bg-light px-3 py-2 rounded h3 shadow-lg"></i></a>
                             </Col>

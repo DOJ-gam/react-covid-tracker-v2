@@ -1,0 +1,14 @@
+
+.small{
+    display: flex !important;
+    justify-content: space-between;
+    width: 100% !important;
+}
+
+@media (max-width: 770px) {
+    .small{
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+}

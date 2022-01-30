@@ -142,21 +142,21 @@ const Charts = ({data:{cases, deaths, recovered}, country})=>{
     )
 
     return(
-       <Container>
-           <Row>
+       <Container className={styles.containerSmall}>
+           <Row className={styles.rowSmall}>
                <Col md={12} className={styles.chartColumn}>
                 <Form.Select onChange={(e)=>handleChartChange(e.target.value)} className={styles.chartSelect}>
                   <option value="line">LineChart</option>
                   <option value="bar">BarChart</option>
                 </Form.Select>
                </Col>
-               <Col md={8} sm={12}>
+               <Col md={8} sm={12} className={styles.chartColumnSmall}>
                  { (selectedChart === "line") ? lineChart : barChart}
                   {/* {lineChart} */}
                   {/* {barChart} */}
                   {/* {dailyData.map(c => `<h1>${c.country}</h1>`)} */}
                </Col>
-               <Col md={4}>
+               <Col md={4} sm={12}>
                   {doughnut}
                </Col>
            </Row>
