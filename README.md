@@ -2,7 +2,7 @@
 <br/>
 <img src='https://github.com/DOJ-gam/react-covid-tracker-v2/blob/main/screenshot/ch0.png' height="300px" width="300px" alt="DOJ's Covid-19 Tracker Img1"/>
 <img src='https://github.com/DOJ-gam/react-covid-tracker-v2/blob/main/screenshot/ch1.png' height="300px" width="300px" alt="DOJ's Covid-19 Tracker Img2"/>
-<img src='https://github.com/DOJ-gam/react-covid-tracker-v2/blob/main/screenshot/ch3.png' height="300px" width="300px" alt="DOJ's Covid-19 Tracker Img3"/>
+<img src='https://github.com/DOJ-gam/react-covid-tracker-v2/blob/main/screenshot/ch2.png' height="300px" width="300px" alt="DOJ's Covid-19 Tracker Img3"/>
 
 
 # Getting Started with Create React App
